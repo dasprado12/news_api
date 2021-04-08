@@ -16,6 +16,12 @@ import datetime
 def dict2text(args):
     if(args.get("when")):
         return "when:".format(args.get("when"))
+    if(args.get("after") and args.get("before")):
+        return "after:{}&before:{}".format(args.get("after"), args.get("before"))
+    if(args.get("after")):
+        return "after:{}".format(args.get("after"))
+    if(args.get("before")):
+        return "before:{}".format(args.get("before"))
     else:
         return "when:1d"
     # return "when:{}".format(args.get('when')) if args.get('when') else return "when:1d"
