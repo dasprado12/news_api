@@ -14,7 +14,7 @@ setup(
     description='Teste',
     author='Daniel Prado',
     install_requires=[  "flask", 'uwsgi', 'requests', 'pandas', 'bs4', 'selenium', \
-                        "cchardet", "feedparser", "nltk" ],
+                        "cchardet", "feedparser", "nltk", "flask-cors" ],
     setup_requires=['pytest-runner'],
     entry_points={
         'console_scripts': [
