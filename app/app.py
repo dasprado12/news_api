@@ -54,6 +54,6 @@ def search_date(termo, start, end):
             "date": result[i]['date'],
             "link": result[i]['link'],
             "company": result[i]['media'],
-            "link_company": result[i]['link'],
+            "link_company": "",
         })
     return _arr
