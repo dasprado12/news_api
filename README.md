@@ -30,7 +30,5 @@ API responsável por fazer o scrapping de notícias e expor estes dados no forma
 
     /news/petrobras
     /news/elon+musk
-    /news/petrobras?when=2021-03-05
-    /news/petrobras?before=2020-08-04
-    /news/petrobras?after=2020-08-04
-    /news/petrobras?after=2020-08-04&before=2020-09-29
+    /news/date/petrobras?from=05/05/2020&to=05/06/2020
+    
